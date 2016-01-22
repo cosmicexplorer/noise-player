@@ -11,19 +11,25 @@ Runs as an interactive process which can play/pause and switch songs to an arbit
     - removes all upcoming from queue
 - stop
     - runs clear and stops playback
-- play <queue>
+- loop_on/off
+    - turn looping on or off
+- random_on/off
+    - turn shuffle on or off
+- interrupt <queue>
     - interrupts current queue and plays queue
 - enqueue <queue>
     - appends queue to current queue
 - pause
     - pauses current queue (no-op if not applicable)
-- unpause
+- play
     - unpauses current queue (no-op if not applicable)
 - seek <time>
-    - seeks to time within current track
+    - seeks to time within current track (no-op if not applicable)
+- next/prev
+    - skip forward and back
 - get-queue
-    - displays current queue
+    - displays current queue in json
 
 # Queues
 
-Queues are a list of `{filename, start-seek-pos}` objects.
+Queues are a list of files.
