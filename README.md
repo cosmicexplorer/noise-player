@@ -1,6 +1,8 @@
 noise-player
 ============
 
+**NOT WORKING ON THIS ANYMORE SINCE AMAROK WORKS NOW**
+
 Plays noises.
 
 Runs as an interactive process which can play/pause and switch songs to an arbitrary seek point at any time. Can accept a list of songs and seek points to pre-cache and queue to play.
